@@ -21,7 +21,7 @@ const game_disk = model(
         required: true,
       },
       screenshot: {
-        type: String,
+        type: picture,
         required: true,
       },
       uploader_name: {
@@ -29,7 +29,7 @@ const game_disk = model(
         required: true,
       },
       gameDisk_photo: {
-        type: String,
+        type: picture,
         required: true,
       },
     },

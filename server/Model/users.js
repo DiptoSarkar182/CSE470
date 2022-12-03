@@ -20,6 +20,10 @@ const Users = model(
         type: String,
         required: true,
       },
+      contact_number: {
+        type: String,
+        required: true,
+      },
     },
     {
       timestamps: true,
