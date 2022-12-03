@@ -13,25 +13,25 @@ const Register = () => {
           </nav>
           <h2 style={{color:"maroon"}}>Register</h2>
           <form>
-            <label htmlFor="name"> Name</label>
+            <label htmlFor="name" style={{fontWeight: "700", color: "blueviolet"}}> Name</label>
             <br />
             <input name="name" type={"text"} required />
             <br />
             <br />
-            <label NID="NID"> NID</label>
+            <label NID="NID" style={{fontWeight: "700", color: "blueviolet"}}> NID</label>
             <br />
-            <input name="dob" type={"text"} required />
+            <input name="NID" type={"text"} required />
             <br />
             <br />
-            <label htmlFor="email"> Email</label>
+            <label htmlFor="email" style={{fontWeight: "700", color: "blueviolet"}}> Email</label>
             <br />
             <input name="email" type={"email"} required /> <br /> <br />
-            <label htmlFor="password"> Password</label>
+            <label htmlFor="password" style={{fontWeight: "700", color: "blueviolet"}}> Password</label>
             <br />
             <input name="password" type={"password"} required />
             <br />
             <br />
-            <label htmlFor="confirm-password"> Confirm password</label>
+            <label htmlFor="confirm-password" style={{fontWeight: "700", color: "blueviolet"}}> Confirm password</label>
             <br />
             <input name="confirm-password" type={"password"} required />
             <br />

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("assets/bg.jpg");
+  background-image: url("assets/photo_1.jpg");
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
@@ -23,12 +23,12 @@ code {
   width: 20%;
   color: black;
   padding: 2%;
-  border-radius: 10%;
+  border-radius: 40%;
 }
 
 
 
-.tile {
+.title {
   width: 20%;
   font-size: 12;
   text-align: center;
