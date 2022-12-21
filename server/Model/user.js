@@ -22,7 +22,7 @@ const User = model(
         required: true,
       },
       contact_number:{
-        type:String,
+        type: String,
         required:true
       }
     },

@@ -26,3 +26,4 @@ app.use(cookieParser())
 app.use("/user", userRoutes);
 app.use("/game", diskRoutes);
 
+module.exports = app;
