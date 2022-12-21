@@ -1,12 +1,13 @@
 const { model, Schema } = require("mongoose");
 
-const Users = model(
-  "Users",
+const User = model(
+  "User",
   Schema(
     {
       email: {
         type: String,
         required: true,
+        unique: true
       },
       password: {
         type: String,
@@ -16,14 +17,14 @@ const Users = model(
         type: String,
         required: true,
       },
-      NID: {
+      nid: {
         type: String,
         required: true,
       },
-      contact_number: {
-        type: String,
-        required: true,
-      },
+      contact_number:{
+        type:String,
+        required:true
+      }
     },
     {
       timestamps: true,
@@ -31,4 +32,4 @@ const Users = model(
   )
 );
 
-module.exports = Users;
+module.exports = User;

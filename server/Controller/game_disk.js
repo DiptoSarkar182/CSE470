@@ -1,17 +1,7 @@
-const game_disk = require("../model/game_disk");
-const Users = require("../model/users");
-const bcrypt = require("bcrypt");
+const GameDisk = require("../model/game_disk");
+
 const upload = async (req, res) => {
   try {
-    const editor = await User.findOne({
-      email: req.body.email,
-    });
-
-    if (!editor || !bcrypt.compareSync(req.body.password, editor.password))
-      return res.status(400).json({
-        msg: "Wrong credentials",
-      });
-
     let keys = Object.keys(req.body);
     keys.forEach((item) => {
       if (!req.body[item])
@@ -19,9 +9,9 @@ const upload = async (req, res) => {
           msg: `${item} is not found. Please search again.`,
         });
     });
-    const disk = await gameDisk.create(req.body);
+    const disk = await GameDisk.create(req.body);
     return res.status(200).json({
-      msg: "product upload successfull.",
+      msg: "product upload successful.",
     });
   } catch (err) {
     res.status(400).json({
@@ -32,9 +22,9 @@ const upload = async (req, res) => {
 
 const get_list = async (req, res) => {
   try {
-    const articles = await gameDisk.find({});
+    const game_disks = await GameDisk.find({});
     return res.status(200).json({
-      articles,
+      game_disks,
     });
   } catch (error) {
     res.status(400).json({
@@ -45,7 +35,7 @@ const get_list = async (req, res) => {
 const get = async (req, res) => {
   const id = req.params.id;
   try {
-    const game_disk = await game_disk.findById({
+    const game_disk = await GameDisk.findById({
       _id: id,
     });
     return res.status(200).json({

@@ -1,7 +1,7 @@
 const { model, Schema } = require("mongoose");
 
-const game_disk = model(
-  "game_disk",
+const GameDisk = model(
+  "GameDisk",
   Schema(
     {
       game_name: {
@@ -21,7 +21,7 @@ const game_disk = model(
         required: true,
       },
       screenshot: {
-        type: picture,
+        type: String,
         required: true,
       },
       uploader_name: {
@@ -29,7 +29,7 @@ const game_disk = model(
         required: true,
       },
       gameDisk_photo: {
-        type: picture,
+        type: String,
         required: true,
       },
     },
@@ -39,4 +39,4 @@ const game_disk = model(
   )
 );
 
-module.exports = game_disk;
+module.exports =  GameDisk;
