@@ -5,6 +5,7 @@ import "./index.css";
 import Login from "./Login";
 import Register from "./Register";
 import Home from "./Home";
+import GameDetails from "./GameDetails";
 
 const router = createBrowserRouter([
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Home/>,
+  },
+  {
+    path: "/gamedetails",
+    element: <GameDetails/>,
   },
 ]);
 
