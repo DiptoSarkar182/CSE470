@@ -7,8 +7,8 @@ const GameSearch = () => {
     <center>
     <div className="search-box">
       
-      <h1>Game Rent</h1>
-      <h2>Search</h2>
+    <h1 style={{fontWeight: "700", color: "DarkSlateBlue",width: "40%"}}>Game Rent</h1>
+    <h2 style={{fontWeight: "700", color: "DarkSlateBlue",width: "40%"}}>Search</h2>
       <input name="search" type={"text"} />
       <br />
       <br />
