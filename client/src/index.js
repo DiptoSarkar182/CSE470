@@ -6,6 +6,7 @@ import Login from "./Login";
 import Register from "./Register";
 import Home from "./Home";
 import GameDetails from "./GameDetails";
+import AfterRegister from "./AfterRegister";
 
 const router = createBrowserRouter([
 
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/gamedetails",
     element: <GameDetails/>,
+  },
+  {
+    path: "/afterRegister",
+    element: <AfterRegister/>,
   },
 ]);
 

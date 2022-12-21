@@ -49,3 +49,23 @@ code {
   font-size: 16px;
   margin: 4px 2px;
 }
+.gamestyle {
+  background-color: Aquamarine;
+  margin: 5% auto;
+  width: 80%;
+  color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  z-index: 0;
+}
+.gameDetails {
+  background-color: Lavender;
+  margin: 5% auto;
+  width: 60%;
+  text-align: center;
+}

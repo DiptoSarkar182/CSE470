@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import Title from "./Title";
 import "./index.css";
 const Login = () => {
   const [submission, setData] = useState({});
@@ -39,12 +39,12 @@ const Login = () => {
   return (
     <>
       <div className="center">
-        <h1>Welcome to game renting</h1>
+      <Title color="#8fe3e2"/>
         <hr style={{ width: "40%" }} />
         <div className="login">
-          <h2>Login</h2>
+        <h2 style={{color:"maroon"}}>Login</h2>
           <form onSubmit={handleSubmit}>
-            <label htmlFor="email"> Email</label>
+          <label htmlFor="email" style={{fontWeight: "700", color: "blueviolet"}}> Email</label>
             <br />
             <input
               name="email"
@@ -54,7 +54,7 @@ const Login = () => {
               required
             />{" "}
             <br /> <br />
-            <label htmlFor="password"> Password</label>
+            <label htmlFor="password" style={{fontWeight: "700", color: "blueviolet"}}> Password</label>
             <br />
             <input
               name="password"
@@ -65,7 +65,7 @@ const Login = () => {
             />
             <br />
             <br />
-            <button>Login</button>
+            <button class = "button Login"> Login </button>
             <br />
             <br />
             <Link to="/register"> Not registered? Register</Link>

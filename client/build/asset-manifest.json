@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e93b225.css",
-    "main.js": "/static/js/main.f60079cb.js",
+    "main.css": "/static/css/main.355b9312.css",
+    "main.js": "/static/js/main.e1262f1b.js",
     "static/media/cod mw2.jpg": "/static/media/cod mw2.fd8d77b7bfce944bba13.jpg",
     "static/media/photo_1.jpg": "/static/media/photo_1.29ff5fcf369e9baabca1.jpg",
     "static/media/fifa.jpg": "/static/media/fifa.0ec90786c120039bd4eb.jpg",
     "static/media/sekiro.jpg": "/static/media/sekiro.4e1c2a622eb883c189c6.jpg",
     "static/media/god of war.jpg": "/static/media/god of war.f00a6bb0e16eaf78f066.jpg",
     "index.html": "/index.html",
-    "main.7e93b225.css.map": "/static/css/main.7e93b225.css.map",
-    "main.f60079cb.js.map": "/static/js/main.f60079cb.js.map"
+    "main.355b9312.css.map": "/static/css/main.355b9312.css.map",
+    "main.e1262f1b.js.map": "/static/js/main.e1262f1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e93b225.css",
-    "static/js/main.f60079cb.js"
+    "static/css/main.355b9312.css",
+    "static/js/main.e1262f1b.js"
   ]
 }

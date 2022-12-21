@@ -8,7 +8,7 @@ const game = () => {
         <img
           src={gamen}
           alt="gamen"
-          style={{ width: "100px", height: "160px" }}
+          style={{ width: "100px", height: "160px",fontWeight: "700", color: "blueviolet" }}
         />
         <p> Call of Duty: Modern Warfare 2</p>
       </div>

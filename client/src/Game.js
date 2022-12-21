@@ -3,7 +3,7 @@ import gamen from "./assets/god of war.jpg";
 import { Link } from "react-router-dom";
 const game = () => {
   return (
-    <Link to="/details">
+    <Link to="/gamedetails">
       <div className="tile">
         <img
           src={gamen}
